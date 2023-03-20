@@ -5,13 +5,10 @@ type Props = {
 };
 
 export default function ImageViewer({ placeholderImageSource }: Props) {
-  return <Image source={placeholderImageSource} style={styles.image} />;
+  return (
+    <Image
+      source={placeholderImageSource}
+      className="w-80 h-[440px] rounded-2xl"
+    />
+  );
 }
-
-const styles = StyleSheet.create({
-  image: {
-    width: 320,
-    height: 440,
-    borderRadius: 18,
-  },
-});
