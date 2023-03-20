@@ -6,7 +6,7 @@ const PlaceholderImage = require("../../assets/images/bg.png");
 
 export default function HomeScreen() {
   return (
-    <View className="flex-1 bg-gray-900 items-center">
+    <View className="items-center flex-1 bg-gray-900">
       <View className="mt-16">
         <ImageViewer placeholderImageSource={PlaceholderImage} />
       </View>

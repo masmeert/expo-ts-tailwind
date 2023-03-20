@@ -19,6 +19,9 @@ module.exports = {
   },
   plugins: ["react", "@typescript-eslint"],
   rules: {
+    "no-alert": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "react-native/no-inline-styles": "off",
     "react/react-in-jsx-scope": "off", // not required anymore
     "no-console": "warn",
     "@typescript-eslint/no-unused-vars": "warn",
